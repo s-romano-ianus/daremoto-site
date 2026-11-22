@@ -68,6 +68,7 @@ a:hover { color: var(--cobalt-dark); }
 .btn-outline { border-color: var(--cobalt); color: var(--cobalt); }
 .btn-outline:hover { background: var(--soft); }
 .actions { display: flex; gap: 14px; flex-wrap: wrap; }
+.actions.spaced { margin-top: 36px; }
 
 /* Sections */
 section { padding: 72px 0; }
@@ -113,6 +114,7 @@ h3 { font-size: 20px; margin: 0 0 8px; }
   padding: 18px 22px; border-radius: 0 var(--radius) var(--radius) 0; margin: 28px 0;
 }
 .callout p { margin: 0; }
+.callout p + p { margin-top: 10px; }
 .callout.warn { border-left-color: #e0a91f; background: #fff8e6; }
 
 /* Prose (privacy, supporto) */
