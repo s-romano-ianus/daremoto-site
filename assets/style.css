@@ -153,3 +153,16 @@ kbd { font-family: inherit; font-size: .9em; border: 1px solid var(--line); bord
   .hero { padding: 56px 0 64px; }
   section { padding: 52px 0; }
 }
+
+/* Prezzi */
+.plans { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); align-items: stretch; }
+.plan { position: relative; display: flex; flex-direction: column; gap: 6px; }
+.plan h2 { font-size: 24px; margin: 0; }
+.plan .price { font-size: 38px; font-weight: 800; color: var(--ink); margin: 4px 0 6px; letter-spacing: -.02em; }
+.plan .price small { font-size: 15px; font-weight: 600; color: var(--muted); letter-spacing: 0; }
+.plan ul { margin: 0 0 22px; padding-left: 20px; color: var(--muted); }
+.plan li { margin: 4px 0; }
+.plan .btn { margin-top: auto; align-self: flex-start; }
+.plan.featured { border: 2px solid var(--cobalt); }
+.plan .tag { position: absolute; top: -13px; left: 26px; }
+.plans-more { margin-top: 22px; }
